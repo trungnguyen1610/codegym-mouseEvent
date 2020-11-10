@@ -7,24 +7,25 @@ function init(){
     imgObj = getID("myImage");
     imgObj.style.position = "absolute";
     imgObj.style.left = "50%";
+    imgObj.style.top  = "50%";
     imgObj.style.transform = "translateX(-50%)"
-    imgObj.style.top  = "10%";
+   
 }
 
 
 
 function  moveRight(){
-    imgObj.style.left =  parseInt(imgObj.style.left) + 1 + '%';
+    imgObj.style.left =  parseInt(imgObj.style.left) + 20 + '%';
 }
 function  moveLeft(){
-    imgObj.style.left =  parseInt(imgObj.style.left) -1 + '%';
+    imgObj.style.left =  parseInt(imgObj.style.left) - 20 + '%';
 }
 function  moveUp(){
-    imgObj.style.top =  parseInt(imgObj.style.top) - 10 + '%';
+    imgObj.style.top =  parseInt(imgObj.style.top) - 20 + '%';
 }
 
 function  moveDown(){
-    imgObj.style.top =  parseInt(imgObj.style.top) + 10 + '%';
+    imgObj.style.top =  parseInt(imgObj.style.top) + 20 + '%';
 }
 
 
